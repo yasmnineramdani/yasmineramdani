@@ -1,14 +1,24 @@
-ul (
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    /*background-color: #f1f1f13b;*/
-    color: lightpink;
-    background-color: beige(205, 90,182);
-)
-
-#body2(
-    color: green
-
-)
+<ul class="top-level-menu">
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li>
+        <a href="#">Offices</a>
+        <ul class="second-level-menu">
+            <li><a href="#">Chicago</a></li>
+            <li><a href="#">Los Angeles</a></li>
+            <li>
+                <a href="#">New York</a>
+                <ul class="third-level-menu">
+                    <li><a href="html.Homepage">Homepage</a></li>
+                    <li><a href="html.3-lagenmodel">Binair stelsel</a></li>
+                    <li><a href="html.fysiekelaag">fysiekelaag</a></li>
+                    <li><a href="html.Logischelaag">Bestandsformaten</a></li>
+                    <li><a href="html.toepassingenlaag">toepassingenlaag</a></li
+                    <li><a href="html.Cpu">Cpu</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Seatlle</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Contact</a></li>
+</ul>
