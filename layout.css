@@ -1,0 +1,77 @@
+.third-level-menu
+{
+   position: absolute;
+   top: 0;
+   right: -150px;
+   width: 150px;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: none;
+}
+ 
+.third-level-menu > li
+{
+   height: 30px;
+   background:rgb(255, 230, 230);
+}
+.third-level-menu > li:hover { background: rgb(230, 230, 255); }
+ 
+.second-level-menu
+{
+   position: absolute;
+   top: 30px;
+   left: 0;
+   width: 150px;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: none;
+}
+ 
+.second-level-menu > li
+{
+   position: relative;
+   height: 30px;
+   background: rgb(255, 179, 179);
+}
+.second-level-menu > li:hover { background: rgb(255, 204, 255); }
+ 
+.top-level-menu
+{
+   list-style:url("../../media/examples/rocket.svg");;
+   padding: 0;
+   margin: 0;
+}
+ 
+.top-level-menu > li
+{
+   position: relative;
+   float: left;
+   height: 30px;
+   width: 150px;
+   background: rgb(255, 214, 153);
+}
+.top-level-menu > li:hover { background: rgb(221, 221, 187); }
+ 
+.top-level-menu li:hover > ul
+{
+   /* Op naar de volgende niveau van de menus */
+   display:inline-end;
+}
+ 
+ 
+/* menu link met design */
+ 
+.top-level-menu a /* Het toepassen op de links in de menu met verschillende soorten nieveaus */
+{
+   font: italic 1.2em "Fira Sans", serif;
+   color:rgb(0, 0, 0);
+   text-decoration: none;
+   padding: 1em;
+ 
+   /* Hier zorgen we ervoor dat de link, de hele lijst wordt gedekt */
+   display: block;
+   line-height: 30px;
+}
+.top-level-menu a:hover { color: #000000; }
